@@ -1,0 +1,34 @@
+parse_resume_task:
+  description: >
+    Extract relevant details from the profile of given candidate data - {candidate_data} and resume_path - {resume_path}. Focus on:
+
+    - Core skills
+    - Work experience (roles, duration, impact)
+    - Educational qualifications
+    - Key achievements relevant to job applications
+
+    Ensure the extracted details are structured in a format suitable for comparison.
+  expected_output: >
+    A structured dictionary containing:
+
+    - Candidate's primary skills
+    - Work experience details
+    - Educational background
+    - Notable achievements such as research papers, hackathons, rankings
+
+match_resume_task:
+  description: >
+    Compare the extracted candidate profile with job descriptions. Evaluate alignment based on:
+
+    - Required vs. possessed skills
+    - Experience level and domain match
+    - Educational qualifications (if applicable)
+    - Key achievements relevant to job roles
+    
+    Each candidate should be assigned a compatibility score based on how well their profile matches job requirements on a scale of 0 to 100.
+  expected_output: >
+      A structured evaluation including:
+      
+      - Match score (based on experience, skills, and relevance)
+      - Key strengths of the candidate for this role
+      - Gaps (if any) between candidate qualifications and job requirements
