@@ -1,0 +1,10 @@
+fastapi
+pydantic
+uvicorn
+python-dotenv
+ibm-watsonx-ai 
+langchain-core
+langchain-ibm
+langgraph
+pymilvus
+tavily
