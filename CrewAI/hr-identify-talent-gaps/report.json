@@ -1,0 +1,59 @@
+{
+	"market_needs": {
+		"trending_skills": [
+			"NLP",
+			"LLMs",
+			"PyTorch",
+			"AI Ethics and Compliance"
+		],
+		"high_demand_roles": [
+			"Senior AI Engineer"
+		],
+		"emerging_technologies": [
+			"Generative AI"
+		],
+		"industry_shifts": "Greater emphasis on Generative AI, ethical considerations, and responsible AI governance."
+	},
+	"skill_report": {
+		"employee_id": "EMP12345",
+		"current_skills": [
+			"Python",
+			"SQL",
+			"TensorFlow",
+			"Data Analysis"
+		],
+		"missing_skills": [
+			"NLP",
+			"LLMs",
+			"PyTorch",
+			"AI Ethics and Compliance"
+		],
+		"role_deficiencies": {
+			"Senior AI Engineer": [
+				"Advanced GenAI techniques",
+				"Hands-on experience with NLP and LLMs"
+			]
+		},
+		"priority_upskilling_areas": [
+			"NLP",
+			"LLMs",
+			"PyTorch",
+			"AI Ethics and Compliance"
+		]
+	},
+	"recommended_trainings": {
+		"employee_id": "EMP12345",
+		"suggested_courses": [
+			"IBM AI Engineering Professional Certificate (Your Learning)",
+			"PyTorch for Deep Learning (Coursera)"
+		],
+		"certifications": [
+			"IBM AI Engineering Professional Certificate (Your Learning)",
+			"AI Ethics and Compliance Certificate (LinkedIn)"
+		],
+		"mentorship_programs": [
+			"AI Mentorship Program (In-house)"
+		],
+		"estimated_timeframe": "6-12 months"
+	}
+}

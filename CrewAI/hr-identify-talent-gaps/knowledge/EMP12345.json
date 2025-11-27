@@ -1,0 +1,11 @@
+{
+    "employee_id": "EMP12345",
+    "name": "Alice Johnson",
+    "band": "7B",
+    "current_role": "Senior AI Engineer",
+    "team": "Client Engineering WatsonX, IBM",
+    "current_skills": ["Python", "SQL", "TensorFlow", "Data Analysis"],
+    "manager_review": "Alice is proficient in data handling/engineering but needs exposure to advanced GenAI techniques.",
+    "annual_reflection": "Good with predictive ML modeling and analysis but lacks hands-on experience with NLP and LLMs",
+    "preferred_learning_style": ["In-House Company Courses", "Mentorship Programs"]
+}

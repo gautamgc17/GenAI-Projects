@@ -1,0 +1,37 @@
+analyze_market_trends_task:
+  description: >
+    Given an input domain or specific product/framework (e.g., Watsonx, CrewAI, Generative AI, Cloud, Automation), collect relevant industry trends.
+    Extract trending skills from job postings, industry reports, and competitors.
+    Identify emerging skills, tools & technologies, most popular libraries and frameoworks being used in that work, and high-demand roles.
+    Compare industry demands with current company workforce skills.
+
+    Industry/Domain: {domain}
+  expected_output: >
+    A structured summary of trending skills, industry demands, and technology shifts.
+
+skill_gap_detection_task:
+  description: >
+    Analyze employee skill profiles and compare them against industry benchmarks and internal job role requirements.
+    Identify gaps in skills, certifications, and domain expertise for future roles.
+    Evaluate workforce readiness for upcoming industry trends and transformations.
+
+    Employee Details: {employee_details}
+
+  expected_output: >
+    A structured report outlining:
+    - Employee's current skills and expertise
+    - Missing or underdeveloped skills compared to market needs
+    - Role-specific skill deficiencies within the organization
+    - Priority areas for skill development
+
+training_recommendation_task:
+  description: >
+    Based on detected skill gaps, recommend tailored upskilling and reskilling programs.
+    Suggest learning resources such as courses, certifications, and internal training modules, strictly either from Your Learning, IBM Website, LinkedIn, Coursera or Udemy platforms only.
+    Align recommendations with employee career paths and future job role requirements.
+
+  expected_output: >
+    A structured learning plan including:
+    - Personalized top 2-3 course recommendations (online platforms, in-house training, workshops) along with platform name
+    - Relevant top 1-2 certifications aligned with industry standards as well as platform name
+    - Suggested top 1-2 mentorship programs or hands-on projects
