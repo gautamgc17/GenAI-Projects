@@ -1,0 +1,10 @@
+fastapi
+pydantic
+uvicorn
+python-dotenv
+ibm-watsonx-ai 
+crewai-tools==0.76
+crewai==0.203.0
+langchain-community
+pymilvus
+tavily
