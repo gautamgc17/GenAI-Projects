@@ -1,0 +1,34 @@
+employee_analysis_task:
+  description: >
+    Analyze an employee's profile, including skills, work experience, training history, 
+    performance evaluations, manager feedback, and also CV details. Extract key strengths, 
+    career trajectory, and potential for internal mobility.
+
+    Current Details: {current_details}
+
+    Candidate CV: {candidate_cv}
+
+  expected_output: >
+    A concise and structured summary of the candiate profile, including:
+    - Professional Summary
+    - Education
+    - Technical Skills
+    - Work History
+    - Key Achievements
+    - Performance Metrics
+
+match_cv_task:
+  description: >
+    Match the candidate to the job opportunities based on skills, experience, and key
+    achievements.
+    Evaluate how well the candidate's profile fits each job description,
+    focusing on the alignment of skills, work history, and key achievements
+    with the job requirements.
+
+    Available Jobs: {available_jobs_csv}
+
+  expected_output: >
+    A ranked list of job opportunities that best match the CV, including:
+    - Job Title (with Department and Location also mentioned)
+    - Match Score (on a scale of 0 to 100)
+    - Key Matching Points
